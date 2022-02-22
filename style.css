@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 18px;
+    
+}
+#hero{
+    width: 100%; 
+    position: absolute;
+    text-align: center; 
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.432)), url('./wood-3182655_1920.jpg') no-repeat center / cover;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    max-width: 954px;
+    margin: 0 auto;
+}
+
+.container .info h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
